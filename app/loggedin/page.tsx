@@ -6,10 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex justify-between flex-col items-center p-24">
-      <h1>Login</h1>
-      <form action={signInAction}>
-        <Button>Submit</Button>
-      </form>
+      <h1>whatTodo</h1>
     </main>
   );
 }
